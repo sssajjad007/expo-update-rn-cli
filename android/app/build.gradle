@@ -56,6 +56,10 @@ react {
     bundleCommand = "export:embed"
 }
 
+ext {
+  hermesEnabled = (findProperty('expo.jsEngine') ?: "hermes") == "hermes"
+}
+
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
@@ -86,13 +90,13 @@ android {
             include "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
         }
     }
-    namespace "com.new_abedin_app"
+    namespace "com.new1.abedin.app"
     defaultConfig {
-        applicationId "com.new_abedin_app"
+        applicationId "com.new1.abedin.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
     signingConfigs {
         debug {

@@ -1,5 +1,5 @@
 {
-  "name": "new_abedin_app",
+  "name": "com.new1.abedin.app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "expo": "^50.0.0",
+    "expo-updates": "~0.24.12",
     "react": "18.2.0",
     "react-native": "0.73.8"
   },

@@ -1,4 +1,4 @@
-package com.new_abedin_app
+package com.new1.abedin.app
 import android.content.res.Configuration
 import expo.modules.ApplicationLifecycleDispatcher
 import expo.modules.ReactNativeHostWrapper

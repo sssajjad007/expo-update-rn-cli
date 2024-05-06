@@ -1,4 +1,28 @@
 {
-  "name": "new_abedin_app",
-  "displayName": "new_abedin_app"
+  "name": "new1.abedin.app",
+  "displayName": "new1.abedin.app",
+  "expo": {
+    "name": "new1.abedin.app",
+    "slug": "newabedinapp",
+    "ios": {
+      "bundleIdentifier": "com.new1.abedin.app"
+    },
+    "android": {
+      "package": "com.new1.abedin.app"
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/6ed429bd-b32b-4ca1-a3a6-3675d97304c7",
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6ed429bd-b32b-4ca1-a3a6-3675d97304c7"
+      }
+    }
+  }
 }
